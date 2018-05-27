@@ -1,3 +1,5 @@
+#softether用户流量查询
+
 **前言**
 
 基友们合租服务器，用softether工具来搭建vpn，由于流量有限，因此每个人希望查询自己用了多少。得知softether server自带流量统计，那么弄起来就轻松很多了。我们需要提取softether server的流量（字节），转换为MB、GB，然后网页可视化显示。
