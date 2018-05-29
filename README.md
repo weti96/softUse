@@ -215,7 +215,7 @@ index.css
 >chmod -R 755 new.sh
 
 2. unable to host XXX
->sudo vi /etc/hosts #在localhost后面空格加xxx，确保/etc/hostname下的一致
+>sudo vi /etc/hosts #在127.0.0.1后面yyy替换为xxx，确保/etc/hostname下的一致
 
 3. sudo passwd:XXX
 >sudo visudo #添加"www ALL=(ALL) NOPASSWD:ALL",设置www所有者用sudo执行/修改文件时不需要输入密码 
